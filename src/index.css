@@ -9,7 +9,7 @@
 
 .headline-1 {
   @apply max-w-max;
-  background: -webkit-linear-gradient(0deg, #fafafa, #aaaaaa);
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -24,7 +24,7 @@
 }
 
 .container {
-  @apply px-4 mx-auto lg:px-0 xl:max-w-6xl;
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
 }
 
 .img-box {
@@ -70,8 +70,12 @@ body {
   @apply absolute bg-zinc-50 rounded-lg -z-10 duration-500;
 }
 
+.contact-btn {
+  @apply max-w-max h-9 md:flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
+}
+
 .btn {
-  @apply max-w-max h-9 md:flex items-center max-md:hidden gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
+  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
 }
 
 .btn-secondary {

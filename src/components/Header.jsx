@@ -29,7 +29,7 @@ function Header() {
         </div>
         <a
           href="#contact"
-          className="max-md:hidden btn btn-secondary md:justify-self-end"
+          className="max-md:hidden contact-btn btn-secondary md:justify-self-end"
         >
           Contact Me
         </a>

@@ -17,7 +17,7 @@ function About() {
             efficient, reliable, and user-friendly. I am good in developing web
             apps, architecting microservices. I enjoy mentoring others and
             strive to accumulate as much experience as possible. I&apos;ve often
-            provided assistance to others in troubleshooting bugs🐞, even in
+            provided assistance to others in troubleshooting bugs🐛, even in
             projects I wasn&apos;t directly involved with. Let’s connect and
             collaborate on exciting projects! 😊
           </p>
