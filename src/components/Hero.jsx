@@ -1,4 +1,4 @@
-import { ButtonOutline, ButtonPrimary } from "./Button";
+import { ButtonPrimary } from "./Button";
 
 function Hero() {
   return (
@@ -19,7 +19,7 @@ function Hero() {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Available for work
+              Available for work - prithviraj.patil.sde@gmail.com
             </div>
           </div>
           <h2 className="headline-1 headline-hero">
@@ -27,11 +27,6 @@ function Hero() {
           </h2>
           <div className="flex items-center gap-3">
             <ButtonPrimary label="Download CV" icon="download" />
-            <ButtonOutline
-              href="#about"
-              label="Scroll down"
-              icon="arrow_downward"
-            />
           </div>
         </div>
 

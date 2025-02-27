@@ -8,7 +8,7 @@ function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
         classes
       }
     >
-      <figure className="img-box aspect-square rounded-lg mb-4 ">
+      <figure className="img-box aspect-[3/2] rounded-lg mb-4 ">
         <img src={imgSrc} alt={title} loading="lazy" className="img-cover" />
       </figure>
 
@@ -19,7 +19,7 @@ function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
             {tags.map((label, key) => (
               <span
                 key={key}
-                className="h-8 text-sm text-zinc-400 bgzi50/5 grid items-center px-3 rounded-lg"
+                className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg"
               >
                 {label}
               </span>
