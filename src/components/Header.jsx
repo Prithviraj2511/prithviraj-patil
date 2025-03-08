@@ -9,7 +9,7 @@ function Header() {
         <h1>
           <a href="/" className="logo">
             <img
-              src="/images/logo.svg"
+              src="./images/logo.svg"
               width={40}
               height={40}
               alt="Prithviraj Patil"
