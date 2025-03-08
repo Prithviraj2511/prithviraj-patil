@@ -2,15 +2,15 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: "/images/tnb.png",
+    imgSrc: "./images/tnb.png",
     title: "Talk & Build",
     tags: ["react js", "spring-boot", "web containers", "spring-ai"],
     description: `Talk and Build is a collaborative platform where users can chat with team members and an AI assistant. 
       The AI can generate code files based on user inputs, and users can instantly run and test the generated code directly in the browser`,
-    projectLink: "https://musify-5al0.onrender.com/",
+    projectLink: "https://github.com/Prithviraj2511",
   },
   {
-    imgSrc: "/images/jwt_session_blog.png",
+    imgSrc: "./images/jwt_session_blog.png",
     title:
       "Balancing Security and Scalability: Understanding Sessions and JWTs",
     tags: ["security", "blog"],
@@ -20,7 +20,7 @@ const works = [
       "https://prithvirajpatil.hashnode.dev/balancing-security-and-scalability-understanding-sessions-jwts-and-refresh-tokens",
   },
   {
-    imgSrc: "/images/game-of-tanks.jpg",
+    imgSrc: "./images/game-of-tanks.jpg",
     title: "Game of tanks",
     tags: ["python", "pygame", "websokets"],
     description: `The multiplayer game 🎮 with other players in our local network 📡. 

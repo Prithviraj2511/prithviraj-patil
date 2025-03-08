@@ -3,73 +3,73 @@ import Skillcard from "./Skillcard";
 function Skill() {
   const nonFrameworks = [
     {
-      imgSrc: "/images/kafka.svg",
+      imgSrc: "./images/kafka.svg",
       label: "Kafka",
     },
     {
-      imgSrc: "/images/jenkins.svg",
+      imgSrc: "./images/jenkins.svg",
       label: "Jenkins",
     },
     {
-      imgSrc: "/images/docker.svg",
+      imgSrc: "./images/docker.svg",
       label: "Docker",
     },
     {
-      imgSrc: "/images/java.svg",
+      imgSrc: "./images/java.svg",
       label: "Java",
     },
     {
-      imgSrc: "/images/python.svg",
+      imgSrc: "./images/python.svg",
       label: "Python",
     },
     {
-      imgSrc: "/images/css3.svg",
+      imgSrc: "./images/css3.svg",
       label: "CSS",
     },
     {
-      imgSrc: "/images/javascript.svg",
+      imgSrc: "./images/javascript.svg",
       label: "JavaScript",
     },
   ];
 
   const frameworks = [
     {
-      imgSrc: "/images/spring.svg",
+      imgSrc: "./images/spring.svg",
       label: "Spring",
     },
     {
-      imgSrc: "/images/spring-boot.svg",
+      imgSrc: "./images/spring-boot.svg",
       label: "Spring-Boot",
     },
     {
-      imgSrc: "/images/tailwindcss.svg",
+      imgSrc: "./images/tailwindcss.svg",
       label: "TailwindCSS",
     },
     {
-      imgSrc: "/images/react.svg",
+      imgSrc: "./images/react.svg",
       label: "React",
     },
     {
-      imgSrc: "/images/camel.svg",
+      imgSrc: "./images/camel.svg",
       label: "Camel",
     },
     {
-      imgSrc: "/images/nodejs.svg",
+      imgSrc: "./images/nodejs.svg",
       label: "NodeJS",
     },
   ];
 
   const databases = [
     {
-      imgSrc: "/images/mysql.svg",
+      imgSrc: "./images/mysql.svg",
       label: "MySQL",
     },
     {
-      imgSrc: "/images/redis.svg",
+      imgSrc: "./images/redis.svg",
       label: "Redis",
     },
     {
-      imgSrc: "/images/mongodb.svg",
+      imgSrc: "./images/mongodb.svg",
       label: "MongoDB",
     },
   ];

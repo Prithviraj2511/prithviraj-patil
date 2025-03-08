@@ -36,10 +36,10 @@ function Career() {
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                 icon={
                   isWorkIcon ? (
-                    <img src="/images/work.svg" alt="work" className="p-3" />
+                    <img src="./images/work.svg" alt="work" className="p-3" />
                   ) : (
                     <img
-                      src="/images/school.svg"
+                      src="./images/school.svg"
                       alt="school"
                       className="p-3"
                     />
