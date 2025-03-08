@@ -4,7 +4,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skill from "./components/Skill";
-import Work from "./components/Work";
+import Project from "./components/Project";
+import Career from "./components/Career";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Hero />
         <About />
         <Skill />
-        <Work />
+        <Career />
+        <Project />
       </main>
       <Footer />
     </ReactLenis>

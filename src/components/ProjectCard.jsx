@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Tags from "./tags";
 
 function ProjectCard({
   imgSrc,
@@ -23,27 +24,12 @@ function ProjectCard({
         <div className="flex items-center justify-between gap-4">
           <div>
             <h3 className="title-1 mb-3">{title}</h3>
-            <div className="flex flex-wrap items-center gap-2">
-              {tags.map((label, key) => (
-                <span
-                  key={key}
-                  className="h-8 text-xs text-sky-400 bg-zinc-50/5  border-2 border-sky-600 grid items-center px-2 rounded-lg"
-                >
-                  {label}
-                </span>
-              ))}
-            </div>
+            <Tags tags={tags} />
           </div>
-
-          {/* <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
-            <span className="material-symbols-rounded" aria-hidden="true">
-              arrow_outward
-            </span>
-          </div> */}
         </div>
       </div>
       <div className="mt-5 px-2 py-1">
-        <p className="font-normal text-sm text-zinc-50/70 tracking-wide text-[15px]">
+        <p className="font-normal text-sm text-zinc-50/60 tracking-wide text-[15px]">
           {description}
         </p>
       </div>

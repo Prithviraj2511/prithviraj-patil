@@ -7,8 +7,20 @@ function Skill() {
       label: "Kafka",
     },
     {
+      imgSrc: "/images/jenkins.svg",
+      label: "Jenkins",
+    },
+    {
+      imgSrc: "/images/docker.svg",
+      label: "Docker",
+    },
+    {
       imgSrc: "/images/java.svg",
       label: "Java",
+    },
+    {
+      imgSrc: "/images/python.svg",
+      label: "Python",
     },
     {
       imgSrc: "/images/css3.svg",
@@ -36,6 +48,10 @@ function Skill() {
     {
       imgSrc: "/images/react.svg",
       label: "React",
+    },
+    {
+      imgSrc: "/images/camel.svg",
+      label: "Camel",
     },
     {
       imgSrc: "/images/nodejs.svg",

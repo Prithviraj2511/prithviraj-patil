@@ -113,9 +113,14 @@ function Navbar({ navOpen }) {
       className: `nav-link ${activeSection === "#skills" ? "active" : ""}`,
     },
     {
-      label: "Work",
-      link: "#work",
-      className: `nav-link ${activeSection === "#work" ? "active" : ""}`,
+      label: "Career",
+      link: "#career",
+      className: `nav-link ${activeSection === "#career" ? "active" : ""}`,
+    },
+    {
+      label: "Projects",
+      link: "#project",
+      className: `nav-link ${activeSection === "#project" ? "active" : ""}`,
     },
     {
       label: "Contact",
