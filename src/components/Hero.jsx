@@ -1,4 +1,8 @@
 import { ButtonPrimary } from "./Button";
+import Socials from "./Socials";
+
+const resumeUrl =
+  "https://drive.google.com/uc?export=download&id=1VralpVtoNDtEQl4zKi0etzLqMJbBA5cR";
 
 function Hero() {
   return (
@@ -25,8 +29,19 @@ function Hero() {
           <h2 className="headline-1 headline-hero">
             Building Scalable Modern Apps for the Future
           </h2>
+          <div className="mb-5 mt-5">
+            <Socials
+              iconHeight={32}
+              iconWidth={32}
+              classes="flex items-center gap-2 justify-start"
+            />
+          </div>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary
+              href={resumeUrl}
+              label="Download CV"
+              icon="download"
+            />
           </div>
         </div>
 

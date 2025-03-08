@@ -1,75 +1,99 @@
 import Skillcard from "./Skillcard";
 
 function Skill() {
-  const skillItem = [
+  const nonFrameworks = [
     {
-      imgSrc: "/images/spring.svg",
-      label: "Spring",
-      desc: "Framework",
+      imgSrc: "/images/kafka.svg",
+      label: "Kafka",
     },
     {
-      imgSrc: "/images/spring-boot.svg",
-      label: "Spring",
-      desc: "Framework",
-    },
-    {
-      imgSrc: "/images/mysql.svg",
-      label: "MySQL",
-      desc: "Database",
-    },
-    {
-      imgSrc: "/images/redis.svg",
-      label: "Redis",
-      desc: "Database",
-    },
-    {
-      imgSrc: "/images/mongodb.svg",
-      label: "MongoDB",
-      desc: "Database",
+      imgSrc: "/images/java.svg",
+      label: "Java",
     },
     {
       imgSrc: "/images/css3.svg",
       label: "CSS",
-      desc: "User Interface",
     },
     {
       imgSrc: "/images/javascript.svg",
       label: "JavaScript",
-      desc: "Interaction",
     },
-    {
-      imgSrc: "/images/nodejs.svg",
-      label: "NodeJS",
-      desc: "Web Server",
-    },
-    {
-      imgSrc: "/images/expressjs.svg",
-      label: "ExpressJS",
-      desc: "Node Framework",
-    },
+  ];
 
+  const frameworks = [
     {
-      imgSrc: "/images/react.svg",
-      label: "React",
-      desc: "Framework",
+      imgSrc: "/images/spring.svg",
+      label: "Spring",
+    },
+    {
+      imgSrc: "/images/spring-boot.svg",
+      label: "Spring-Boot",
     },
     {
       imgSrc: "/images/tailwindcss.svg",
       label: "TailwindCSS",
-      desc: "User Interface",
+    },
+    {
+      imgSrc: "/images/react.svg",
+      label: "React",
+    },
+    {
+      imgSrc: "/images/nodejs.svg",
+      label: "NodeJS",
     },
   ];
+
+  const databases = [
+    {
+      imgSrc: "/images/mysql.svg",
+      label: "MySQL",
+    },
+    {
+      imgSrc: "/images/redis.svg",
+      label: "Redis",
+    },
+    {
+      imgSrc: "/images/mongodb.svg",
+      label: "MongoDB",
+    },
+  ];
+
   return (
     <section id="skills" className="section">
       <div className="container">
         <h2 className="headline-2">My Tech Skills</h2>
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[65ch]">
           Discover the tools and technologies I use to create websites &
           applications.
         </p>
-        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-          {skillItem.map(({ imgSrc, label, desc }, key) => (
-            <Skillcard key={key} imgSrc={imgSrc} label={label} desc={desc} />
+        <div className="my-6 flex items-center justify-center">
+          <hr className="w-[10%] h-1 border-gray-500" />
+          <p className="text-zinc-400 mx-3">Frameworks</p>
+          <hr className="w-[10%] h-1 border-gray-500" />
+        </div>
+        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]">
+          {frameworks.map(({ imgSrc, label }, key) => (
+            <Skillcard key={key} imgSrc={imgSrc} label={label} />
+          ))}
+        </div>
+        <div className="my-6 flex items-center justify-center">
+          <hr className="w-[10%] h-1 border-gray-500" />
+          <p className="text-zinc-400 mx-3">Databases</p>
+          <hr className="w-[10%] h-1 border-gray-500" />
+        </div>
+        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]">
+          {databases.map(({ imgSrc, label }, key) => (
+            <Skillcard key={key} imgSrc={imgSrc} label={label} />
+          ))}
+        </div>
+        <div className="my-6 flex items-center justify-center">
+          <hr className="w-[10%] h-1 border-gray-500" />
+          <p className="text-zinc-400 mx-3">Core Technologies</p>
+          <hr className="w-[10%] h-1 border-gray-500" />
+        </div>
+        <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(150px,_1fr))]">
+          {nonFrameworks.map(({ imgSrc, label }, key) => (
+            <Skillcard key={key} imgSrc={imgSrc} label={label} />
           ))}
         </div>
       </div>
