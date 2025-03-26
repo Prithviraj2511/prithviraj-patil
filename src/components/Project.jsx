@@ -2,6 +2,22 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: "./images/spendwise.png",
+    title: "Spendwise - [Expense App]",
+    tags: [
+      "react native",
+      "spring-boot",
+      "redis",
+      "rabbitMQ",
+      "kong gateway",
+      "docker",
+    ],
+    description: `SpendWise is a smart expense tracker that helps users monitor and manage their spending effortlessly. 
+    With intuitive categorization, detailed reports, and actionable insights, it empowers users to take control of their finances. 
+    Secure, scalable, and user-friendly, SpendWise makes budgeting simple and effective.`,
+    projectLink: "https://github.com/Prithviraj2511/Spendwise",
+  },
+  {
     imgSrc: "./images/tnb.png",
     title: "Talk & Build",
     tags: ["react js", "spring-boot", "web containers", "spring-ai"],
